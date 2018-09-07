@@ -17,6 +17,11 @@ button{
     border: 2px solid #f56a6a;
     padding: 1em 2.5em;
 }
+#separate{
+    color: #7f888f;
+    background-color: #7f888f;
+    height: 1px;
+}
 hr{
     border: none;
     background-color: #f56a6a;
@@ -29,8 +34,11 @@ button:hover{
 header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    height: 40px;
 }
-
+header p{
+    color: black;
+}
 header ul{
     display: flex;
     justify-content:flex-end;
@@ -42,7 +50,7 @@ header ul li{
 }
 .container2 ul{
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 .container2 ul li{
     display: grid;
@@ -59,10 +67,17 @@ header ul li{
     text-align: justify;
 }
 img{
-    border-radius: 4px;
+    width: 20em;
+    padding: 1em;
 }
 main{
     display: flex;
+}
+#content{
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+
 }
 #footer_title{
     width: 200px;
